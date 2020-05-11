@@ -4,7 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => res.send('Hello World!'))
 app.get('/custom', (req, res) => {
-    res.status(418).set('x-alexfromsofia', 'Yes').send('Hello World!')
+    res.status(418).set('x-alexfromsofia', 'Yes').send('Teapot!')
     
 })
 
